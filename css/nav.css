@@ -1,0 +1,105 @@
+/* NAVIGATION */
+
+nav,
+nav.m
+{
+  width: 100%;
+  height: 46px;
+  border-top: solid 1px #33383a;
+  text-align: center;
+  background: #353535;
+  background-size: 100%;
+  background-repeat: repeat-x;
+}
+#navigation
+{
+  margin: 0;
+  padding: 0;
+  margin-top: 13px;
+  height: 0px;
+}
+.navsingle,
+.firstlevel
+{
+  display: inline;
+  border-right: solid 1px #000;
+  border-left: solid 1px #33383a;
+  padding-top: 12px;
+  padding-bottom: 13px;
+}
+.navsingle a,
+.firstlevel a
+{
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 13px;
+  padding-bottom: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 14px;
+  text-decoration: none;
+  height: 0px;
+}
+.navsingle a:hover,
+.firstlevel a:hover
+{
+  text-decoration: none;
+  background: #000;
+}
+
+.navhover
+{
+  background: #000;
+  border-left: 1px solid #000;
+  z-index: 1000;
+  height: 0px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+}
+.before
+{
+  border-right: solid 1px #000;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  width: 1px;
+  display: inline;
+}
+.after
+{
+  border-left: solid 1px #33383a;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  width: 1px;
+  display: inline;
+  left: 0;
+}
+.secondlevel
+{
+  display: none;
+  background: #000;
+  z-index: 1000;
+  position: absolute;
+}
+.secondlevel a
+{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-shadow: 1px 1px 1px #000;
+  display: block;
+  padding-left: 19px;
+  padding-right: 22px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.secondlevel a:hover
+{
+  color: #bfbfbf;
+  background: #33383a;
+}
+.navlist
+{
+  display: block;
+}
