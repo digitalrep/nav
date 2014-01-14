@@ -61,7 +61,7 @@ Finally, in your html, include this code:
 ```
 Live demo:
 ----------
-http://www.digitalrep.info/samples/view/nav
+http://www.digitalrep.info/samples/nav.php
 
 Supported Browsers:
 -------------------
